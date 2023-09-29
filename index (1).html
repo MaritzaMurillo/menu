@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>Document title</title>
+<meta charset='utf-8'>
+<meta name='description' content='Description of document content'>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<header role='banner'>
+  <h1>Burgeralicious!</h1>
+  <nav>
+    <ol role='navigation'>
+      <li>
+        <a href='#'>Menu</a>
+      </li>
+      <li>
+        <a href='#'>Order Form</a>
+      </li>
+      <li>
+        <a href='#'>Contact</a>
+      </li>
+    </ol>
+    <form role='search'>
+      <input type='search' placeholder='Enter search term here...'>
+      <input type='submit' value='search'>
+    </form>
+  </nav>
+</header>
+
+<main role='main'>
+  <h2>Menu</h2>
+  <p>Choose between these:</p>
+  <ul>
+    <li>Bacon Burger</li>
+    <img src="https://media.istockphoto.com/id/520215281/photo/bacon-burger.jpg?s=1024x1024&w=is&k=20&c=CDNBvZDZTJl5EwRO5xQZ_UOZ_KUUy5e7aVFE7bjz2ME=" alt="Bacon Burger" width="250px" height="auto">
+    <h4>$10 each</h4>
+    <li>Chicken Sandwhich</li>
+    <img src="https://www.kitchensanctuary.com/wp-content/uploads/2019/08/Crispy-Chicken-Burger-square-FS-4518.jpg" alt="Chicken Sandwhich" width="250px" height="auto">
+    <h4>$8 each</h4>
+    <li>Veggie Burger</li>
+    <img src="https://assets.bonappetit.com/photos/57acae2d1b33404414975121/16:9/w_3631,h_2042,c_limit/ultimate-veggie-burger.jpg" alt="Veggie Burger" width="250px" height="auto">
+    <h4>$12 each</h4>
+  </ul>
+  
+<!-- Add your restaurant order form below -->
+  <form role='order_form'>
+    <input type='search' placeholder='Put Order Form Here'>
+    <input type='submit' value='order'>
+    <body >  
+      <div> 
+      <h2>Order Form</h2>
+      <table width="40%" id="alignment" > 
+          <tr>  
+          <th>Food Item</th> 
+          <th></th>
+          <th>Price(Rs.)</th>
+          </tr> 
+          <tr>
+          <td>Bacon Burger</td> 
+          <td> - </td>
+          <td>10.00</td> 
+          </tr> 
+          <tr>
+          <td>Chicken Sandwhich</td>
+          <td> - </td> 
+          <td>8.00</td> 
+          </tr>
+          <tr> 
+          <td>Veggie Burger</td>
+          <td> - </td>  
+          <td>12.00</td>
+          </tr> 
+          <tr>  
+          <td>Cheeseburger </td>
+          <td> - </td> 
+          <td>9.00</td> 
+          </tr>  
+          <tr>
+          <td>Side of Fries</td>
+          <td> - </td> 
+          <td>6.00</td>
+          </tr>
+          <td> Soda</td>
+          <td> - </td>
+          <td> 5.00</td>
+          </table>
+          <h>FIT Food - Order Form</h1>
+          <table style="background-color:aquamarine;margin-left: 100px;">  <tr>
+          <td>Burger : </td>
+          <td> 
+          <select> 
+          <option>--Select Item--</option>
+          <option>Bacon Burger</option>
+          <option>Chicken Sandwich</option>
+          <option>Veggie Burger</option> 
+          </select>
+          <td>Beverage</td>
+          <td>
+          <select>
+          <option>--Select Item--</option>
+          <option>Sprite</option>
+          <option>Sangria</option>
+          <option>Pepsi</option>
+          </select>
+          <td>Side of Fries</td>
+          <td>
+          <select>
+          <option>--Select Item--</option>
+          <option>Regular</option>
+          <option>Cheese Fries</option>
+          </select>
+          </td>
+          </td> 
+          </tr>
+          <tr>
+          <td>First and Last Name:</td>
+          <td>
+          <input type="text" >
+          </td>
+          </tr>
+          <tr><td>Email Address: </td>
+          <td><input type="text" id="mblenmb" onfocusout="checkmob()"></td></tr> 
+          <tr>
+            <td> Address (City, State, Zip Code)</td>
+            <td>
+              <input type="text">
+              </td>
+          </tr>
+          <tr>
+            <td>Phone Number</td>
+            <td><input type= "text"></td>
+          </tr>
+        </table>
+          <br>
+          <form name="tblform" >
+              <table width="80%"  id="alignment" >
+              <tr>
+              <th>Payment</th>
+              <th> </th> 
+              </tr>
+              <tr> 
+              <td>Payment Method:</td> 
+              <td>
+              <select id="item1">
+              <option value="Select Item">--Select Item--</option> 
+              <option value="Credit/Debit">Credit/Debit</option>
+              <option value="Pay in Store">Pay in Store</option>
+              <tr><td>Card Number: </td>
+                <td><input type="text" id="mblenmb" onfocusout="checkmob()"></td></tr> 
+                <tr>
+              <tr><td>Expiration Date: </td>
+                <td><input type="text" id="mblenmb" onfocusout="checkmob()"></td></tr> 
+                <tr>
+                  <tr><td>Security Code: </td>
+                    <td><input type="text" id="mblenmb" onfocusout="checkmob()"></td></tr> 
+                    <tr>
+                      <form action="dead_link.html" method="POST">
+                        <br>
+                        <input type="submit" value="Submit">
+                        
+                  </head>
+                  <body>
+                      <form action="dead_link.html" method="POST">
+                    </form>
+              </body>
+  </form>
+<!-- Add your restaurant order form above -->
+</main>
+
+<aside role='complementary'>
+  <h2>Sidebar</h2>
+  <p>Make sure to complete the given survey after each order for a chance to win free sodas!</p>
+</aside>
+
+<footer role='contentinfo'>
+  <h2>Footer</h2>
+  <p>Created by the wonderful G-code team</p>
+</footer>
+
+</body>
+</html>
