@@ -1,4 +1,4 @@
-/* CSS reset to create a more consistent look across different browsers */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +11,6 @@ body {
     color: #333; /* A basic text color that's not too harsh */
     background-color: #008080; /* A basic background color */
 }
-
-/* Add your custom CSS below this line */
 th{
     text-align:left;
     
@@ -35,4 +33,10 @@ font-size: 15pt;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+  }
+.footer{
+    text-align: center;
+    background-color: #333;
+    color: white; 
+    padding: 0.1px;
   }
