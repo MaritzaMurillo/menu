@@ -1,31 +1,46 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: Arial, sans-serif; /* Use a basic, widely-supported font */
-    line-height: 1.6; /* A basic line-height for readability */
-    color: #333; /* A basic text color that's not too harsh */
-    background-color: #008080; /* A basic background color */
-}
 th{
     text-align:left;
-    
-
+}
+h2{
+    text-align:center;
 }
 h1{
-    text-align:center;
+  text-align: center;
 }
 body{
 font-size: 15pt;
-
 }
-
+.bacon, .chicken, .veggie{
+  margin-bottom: 30px;
+  font-style: oblique;
+}
+.bacon{
+  color:#4b3807
+}
+.chicken{
+  color:bisque
+}
+.veggie{
+  color:#0a720e;
+}
+.cheese{
+  color:yellow
+}
+#menu-section{
+  margin-bottom:0px;
+}
+.sides-beverages{
+  text-align: center;
+  margin-bottom: 18%;
+  margin-top: 0px;
+}
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -34,9 +49,41 @@ font-size: 15pt;
     display: inline-block;
     font-size: 16px;
   }
-.footer{
+  body {
+    font-size: 15pt;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #0ba49d;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding:0;
+}
+.inner-container {
+  padding: 5%; 
+}
+#order-button-container {
+  text-align: center;
+  
+}
+#order-button-container input[type="submit"] {
+  margin-top: 10px; 
+  padding:1%
+  
+}
+.main-content {
+    flex: 1;
+    padding-bottom: 80px; 
+}
+.footer {
     text-align: center;
     background-color: #333;
-    color: white; 
-    padding: 0.1px;
-  }
+    color: white;
+    padding: 10px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: medium;
+    
+}
